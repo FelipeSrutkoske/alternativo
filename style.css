@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box2{
+    height: 80px;
+}
+.box{
+    width: 100%;
+}
+.boxjogo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxjogopagina{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+body{
+    background: linear-gradient(to right, #8b8b8b, #202020);
+}
+.boxpq{
+    width: 400px; /* largura da caixa */
+    height: auto; /* altura automática baseada no conteúdo */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); /* sombra */
+    overflow: hidden; /* esconde conteúdo que excede as dimensões */
+    text-align: center; /* centraliza o texto */
+    background-color: #333;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: white;
+    border: solid 2px black;
+}
+
+.containerImagem {
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-maior {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.imagem-menor {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px; /* ajuste conforme necessário */
+    height: auto;
+}
+
+.boxpqpagina{
+    width: 600px; /* largura da caixa */
+    height: auto; /* altura automática baseada no conteúdo */
+    overflow: hidden; /* esconde conteúdo que excede as dimensões */
+    box-shadow: 4px 4px 8px rgb(0, 0, 0); /* sombra */
+    text-align: center; /* centraliza o texto */
+    background-color: #333;
+    border-radius: 10px;
+    margin-top: 150px;
+    color: white;
+    border: solid 2px black;
+}
+
+.boxpqpagina a{
+    padding: 10px;
+    float: right;
+}
+
+.accordion-button{
+    background-color: #333;
+    color: white;
+}
+
+.accordion-header{
+    background-color: #aaaaaa;
+    color: white;
+}
+
+.accordion-item{
+    background-color: #aaaaaa;
+    color: rgb(0, 0, 0);
+}
+.container {
+    background-color: #707070;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .h2 {
+    display: flex;
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .name, .email, .message {
+    font-size: 32px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .input[type="text"],
+  .input[type="email"],
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+
+.boxpqpagina1{
+    width: 1650px; /* largura da caixa */
+    height: auto; /* altura automática baseada no conteúdo */
+    box-shadow: 4px 4px 8px rgb(0, 0, 0); /* sombra */
+    overflow: hidden; /* esconde conteúdo que excede as dimensões */
+    text-align: center; /* centraliza o texto */
+    background-color: #333;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: white;
+    padding: 40px;
+    font-family: "Reem Kufi Ink", sans-serif;
+    border: solid 2px black;
+}
+
+.boxpqpagina1 li{
+    text-align: left;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.accordion-flush{
+    background: linear-gradient(to right, black, white);
+}
+
+.boxpqpagina1 h1{
+    font-size: 25px;
+    text-align: justify;
+    margin: 10px;
+    
+}
+
+.container p{
+    font-size: 15px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo do conteúdo do footer */
+footer p {
+    margin: 0; /* Remove margens padrão */
+}
+
+.reem-kufi-ink-regular {
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.boxpq img{
+    max-width: 100%; /* garante que a imagem não ultrapasse a caixa */
+    height: auto; /* permite que a altura seja ajustada proporcionalmente */
+    display: block; /* remove espaços extras ao redor da imagem */
+}
+
+.boxpqpagina img{
+    width: 100%;; /* garante que a imagem não ultrapasse a caixa */
+    height: auto; /* permite que a altura seja ajustada proporcionalmente */
+    display: block; /* remove espaços extras ao redor da imagem */
+}
+.texto {
+    padding: 10px; /* espaço interno ao redor do texto */
+    font-size: 32px; /* tamanho da fonte */
+    font-family: "Reem Kufi Ink", sans-serif;
+}
+
+.texto1{
+    padding: 10px; /* espaço interno ao redor do texto */
+    font-size: 32px; /* tamanho da fonte */
+    font-family: "Reem Kufi Ink", sans-serif;
+    text-align: center;
+}
+
+.boxpq a{
+    margin-top: 5px;
+    float: right;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.accordion{
+    margin-top: 50px;
+    background-color: aqua;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: rgb(0, 0, 0);
+
+}
+
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: .3s;
+    background: white;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.spiner{
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 5px solid purple;
+    border-top: 7px solid pink;
+    animation: ani 2.5s linear infinite;
+}
+
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}
